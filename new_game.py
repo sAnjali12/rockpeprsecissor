@@ -16,3 +16,9 @@ while True:
 		print "you win"
 	else:
 		print "you los"
+	
+	one_more_input = raw_input("you want to again play--------------:) YES/NO")
+		if one_more_input == "YES":
+			continue
+		else:
+			break
