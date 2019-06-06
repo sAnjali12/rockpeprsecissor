@@ -6,4 +6,6 @@ while True:
 	user_input =raw_input("enter your choice rock paper scissor ")
 	if user_input not in game_list:
 		print "invalid input"
+	elif user_input == coputer:
+		print "game draw"
 	
