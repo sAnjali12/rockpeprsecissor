@@ -8,4 +8,11 @@ while True:
 		print "invalid input"
 	elif user_input == coputer:
 		print "game draw"
-	
+	elif user_input == "paper" and computer == "rock":
+		print "you win"
+	elif user_input == "scissor" and computer == "paper":
+		print "you win"
+	elif user_input == "rock" and computer == "scissor":
+		print "you win"
+	else:
+		print "you los"
